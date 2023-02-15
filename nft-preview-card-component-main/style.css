@@ -1,0 +1,121 @@
+
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+main{
+    display: flex;
+    position:absolute;
+    width: 100vw;
+    height: 100vh;
+    background-color: #0d1a2d;
+    align-items: center;
+    padding-left:40%;
+    font-family: "Overpass", sans-serif;
+
+}
+
+.card{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    padding: 20px;
+    padding-top:0px;
+    align-items: center;
+    max-width: 350px;
+    max-height: 610px;;
+    width: 350px;
+    height: 610px;
+    background-color: #15273f;
+    border-radius: 15px;
+    box-shadow: 0px 10px 15px 10px #0c1729;
+
+}
+
+.nftimage{
+    display: flex;
+    position: relative;
+    max-width:310px;
+    top:10px;
+    border-radius: 6px;
+}
+
+.title{
+    display: flex;
+    position: relative;
+    top:10px;
+    font-size: 21px;
+    font-weight: 600;
+    color:white;
+}
+
+.description{
+    display: flex;
+    position:relative;
+    top:10px;
+    font-weight: 100;
+    font-size: 18px;
+    color:#8aa0c7;
+}
+.price{
+    display: inline-flex;
+    position: relative;
+    top:10px;
+    color:#0efaf9;
+    font-weight: 700;
+    font-size: 16px;
+
+}
+
+.time{
+    display:inline-flex;
+    position: relative;
+    left:110px;
+    top:10px;
+    color:#91afd5;
+    font-weight: 300;
+}
+.timeicon{
+    margin-right: 3px;
+    padding-bottom:2px;
+}
+.ethicon{
+    padding-right:5px;
+    height: 20px;
+    padding-bottom:2px;
+}
+.autor{
+    display:flex;
+    position: relative;
+    flex-wrap: nowrap;
+    width: 310px;
+    top:10px;
+}
+
+.autor p{
+    display: flex;
+    position:relative;
+    left:20px;
+    top:7px;
+    color:#8aa0c7;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.autor p.name{
+    color:#f1f7ff;
+    margin-left: 5px;
+
+}
+.avatar{
+    display:flex;
+    width:30px;
+    height:30px;
+    border-radius: 35px;
+    background-color: white;
+    outline: 1px solid white;
+}
